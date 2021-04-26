@@ -5,7 +5,8 @@
     <!-- font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- font -->
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     <!-- icona -->
     <!-- <link rel="shortcut icon" href="img/" /> -->
     <title>Sass Painter Tiziana</title>
@@ -14,33 +15,45 @@
   <body>
     <!-- GOAL: create un nuovo progetto Laravel Mix e cercando di applicare tutte le feature e le best practice di Sass viste in classe stamattina, riproducete il layout in allegato.BONUS: curare anche il layout mobile -->
     <header>
-      <div class="contact">
-        <ul class="list-contact">
-          <li><i class="fas fa-phone-alt"></i>  1-877-582-6735</li>
-          <li><i class="fas fa-comment-alt"></i> Chat</li>
-          <li><i class="fas fa-user-alt"></i> Sign in</li>
-          <li><i class="fas fa-shopping-cart"></i> Cart</li>
-          <li>
-            <select class="" name="language">
-              <option value="English">English</option>
-              <option value="Italian">Italian</option>
-              <option value="Spanish">Spanish</option>
-              <option value="German">German</option>
-              <option value="French">French</option>
-            </select>
-          </li>
-        </ul>
-      </div>
-      <div class="menu">
-        <ul class="list-menu">
-          <li>dsfs</li>
-          <li>fsd</li>
-        </ul>
-
+      <div class="center">
+        <div class="contact">
+            <span><i class="fas fa-phone-alt"></i> <a href="#"> 1-877-582-6735</a></span>
+            <span><i class="fas fa-comment-alt"></i> <a href="#">Chat</a></span>
+            <span><i class="fas fa-user-alt"></i> <a href="#">Sign in</a></span>
+            <span><i class="fas fa-shopping-cart"></i> <a href="#">Cart</a></span>
+            <span>
+              <select class="" name="language">
+                <option value="English">English</option>
+                <option value="Italian">Italian</option>
+                <option value="Spanish">Spanish</option>
+                <option value="German">German</option>
+                <option value="French">French</option>
+              </select>
+            </span>
+        </div>
+        <div class="menu">
+            <span><img src="img/logo_painter.png" alt="logo"></span>
+            <span> <a href="#">Products <i class="fas fa-chevron-down"></i></a> </span>
+            <span> <a href="#">Brushes <i class="fas fa-chevron-down"></i></a></span>
+            <span><a href="#">Wacom Tablets</a></span>
+            <span><a href="#">Special Offers</a></span>
+            <span><a href="#">Free Trials</a></span>
+            <span><a href="#">Business</a></span>
+            <span><a href="#">Support <i class="fas fa-chevron-down"></i></a></span>
+            <span><a href="#">Learning <i class="fas fa-chevron-down"></i></a></span>
+        </div>
       </div>
     </header>
     <main>
-
+      <div class="jumbo">
+        <img src="img/painter-2021-wm-black.png" alt="">
+        <p>The most realistic painting experience you'll find hard to resist</p>
+        <p>Limited-time offerGet Signature Style Brush Pack Bundle FREE (worth $179.99)</p>
+        <div class="">
+          <button type="button" name="button">LERN MORE</button>
+          <button type="button" name="button">DOWNLOAD TRIAL</button>
+        </div>
+      </div>
     </main>
     <footer>
     </footer>

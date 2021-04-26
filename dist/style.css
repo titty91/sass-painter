@@ -8,16 +8,70 @@ header {
   background-color: black;
   display: flex;
   flex-direction: column;
+  font-size: 12px;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
 }
-header .contact {
+header .center {
+  width: 75%;
+  margin: auto;
+}
+header .center .contact {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  padding: 10px;
+}
+header .center .contact span {
+  padding: 0 10px;
+}
+header .center .contact i {
+  color: #2291F2;
+}
+header .center .contact a {
+  text-decoration: none;
+  color: lightgrey;
+}
+header .center .contact a:hover {
+  text-decoration: underline;
   color: white;
 }
-header .contact ul {
-  list-style: none;
-  display: inline-block;
-  float: right;
-  text-align: center;
+header .center .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .center .menu span {
+  padding: 0 20px;
+  color: black;
+}
+header .center .menu span a {
+  text-decoration: none;
+  color: white;
+}
+header .center .menu span:hover {
+  background-color: lightgrey;
+  color: black;
+}
+header .center .menu img {
+  height: 50px;
+  width: 30px;
+}
+header .center .menu i {
+  font-size: 8px;
+  color: lightgrey;
+}
+header .center .menu i:hover {
+  color: black;
+}
+
+.jumbo {
+  background-color: lightblue;
+  height: 400px;
+  width: 100%;
+}
+.jumbo .center {
+  width: 75%;
+  margin: auto;
 }

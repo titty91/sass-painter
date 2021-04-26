@@ -2,27 +2,79 @@
 $bg-color: black;
 $txt-site: 12px;
 $txt-color: white;
+$txt-color2: lightgrey;
+$i-color: #2291F2;
 
 
 header{
   background-color: $bg-color;
   display: flex;
   flex-direction: column;
+  font-size: $txt-site;
+  color: $txt-color;
+  font-family: 'Nunito Sans', sans-serif;
 
-  .contact{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    color: $txt-color;
+  .center{
+    width: 75%;
+    margin: auto;
 
-    ul{
-      list-style: none;
-      display: inline-block;
-      float: right;
-      text-align: center;
+    .contact{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding: 10px;
 
+      span{
+        padding: 0 10px;
+      }
+
+      i{
+        color:$i-color;
+      }
+
+      a{
+        text-decoration: none;
+        color: $txt-color2;
+        &:hover{
+          text-decoration: underline;
+          color: white;
+        }
+      }
     }
+
+    .menu{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      span{
+        padding: 0 20px;
+        color: black;
+        a{
+          text-decoration: none;
+          color: white;
+        }
+        &:hover{
+          background-color: lightgrey;
+          color: black;
+        }
+      }
+
+      img{
+        height: 50px;
+        width: 30px;
+
+      }
+
+      i{
+        font-size: 8px;
+        color: $txt-color2;
+        &:hover{
+          color: black;
+        }
+      }
+    }
+
   }
-
-
 }
