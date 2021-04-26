@@ -1,0 +1,28 @@
+// chiavi
+$bg-color: black;
+$txt-site: 12px;
+$txt-color: white;
+
+
+header{
+  background-color: $bg-color;
+  display: flex;
+  flex-direction: column;
+
+  .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: $txt-color;
+
+    ul{
+      list-style: none;
+      display: inline-block;
+      float: right;
+      text-align: center;
+
+    }
+  }
+
+
+}

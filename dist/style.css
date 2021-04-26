@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+header .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+}
+header .contact ul {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
